@@ -235,10 +235,6 @@ def respond(voice_data):
         else:
             engine_speak("Wrong Operator")
 
-    # 13 screenshot
-    if there_exists(["capture", "my screen", "screenshot"]):
-        myScreenshot = pyautogui.screenshot()
-        myScreenshot.save('C:/Users/YASH/Pictures/Screenshots')
 
         # 14 to search wikipedia for definition
     if there_exists(["definition of"]):
